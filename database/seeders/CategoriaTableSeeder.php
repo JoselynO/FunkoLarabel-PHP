@@ -29,5 +29,9 @@ class CategoriaTableSeeder extends Seeder
             'nombre' => 'SUPERHEROES',
         ]);
 
+        Categoria::create([
+            'nombre' => 'CARTOON',
+        ]);
+
     }
 }
